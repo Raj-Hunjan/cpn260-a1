@@ -1,0 +1,78 @@
+body {
+    margin: 0 auto;
+    background-color: ghostwhite;
+  }
+  
+  .font {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 21px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #00f2ea;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ff0050;
+  }
+  
+  .la-camera {
+    color: white;
+    font-size: 25px;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 15px; 
+  }
+  
+  article {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  p {
+    max-width: 80ch;
+    margin-top: 0;
+    padding: 10px
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  
+  footer {
+    background-color: black;
+    color: #00f2ea; 
+    text-align: center;
+    padding: 30px 557px;
+    margin-top: 60px;
+  }
+  
+  
+  
