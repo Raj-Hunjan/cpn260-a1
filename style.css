@@ -42,7 +42,8 @@ body {
     font-size: 25px;
   }
   
-  h2 {
+  h1 {
+    font-family: 'Overpass', sans-serif;
     display: flex;
     justify-content: flex-start;
     margin: 10px;
@@ -53,7 +54,7 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
   
-  p {
+  article p{
     max-width: 80ch;
     margin-top: 0;
     padding: 10px
@@ -62,16 +63,16 @@ body {
   section {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
   }
   
-  
-  
   footer {
+    margin-top: auto;
     background-color: black;
     color: #00f2ea; 
     text-align: center;
-    padding: 30px 557px;
-    margin-top: 60px;
+    width: 100%;
+    padding: 0.2rem;
   }
   
   
